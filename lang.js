@@ -1,7 +1,7 @@
 (() => {
   let language = new URLSearchParams(location.search).get('lang');
-  if (!['de', 'en'].includes(language)) { try { language = localStorage.getItem('stillsort_lang'); } catch (_) {} }
-  if (!['de', 'en'].includes(language)) language = 'de';
+  if (!['de', 'en'].includes(language)) { try { language = localStorage.getItem('little_keepings_lang'); } catch (_) {} }
+  if (!['de', 'en'].includes(language)) language = 'en';
   const home = /\/$|\/index\.html$/.test(location.pathname);
   const support = /\/support\.html$/.test(location.pathname);
   function apply() {
@@ -21,8 +21,8 @@
       }
     });
     if (home || support) {
-      const title = home ? (language === 'de' ? 'Stillsort — In Ruhe sortieren' : 'Stillsort — Find your quiet order') : 'Support — Stillsort';
-      const description = home ? (language === 'de' ? 'Ein ruhiges Puzzle- und Aufräumspiel für kleine Pausen.' : 'A calm sorting puzzle for little breaks from the everyday.') : (language === 'de' ? 'Hilfe und Kontakt für Stillsort.' : 'Help and contact for Stillsort.');
+      const title = home ? (language === 'de' ? 'Little Keepings — Ruhiges Sortierpuzzle' : 'Little Keepings — Calm sorting puzzle') : 'Support — Little Keepings';
+      const description = home ? (language === 'de' ? 'Ein ruhiges Sortierpuzzle: 25 Aufgaben, fünf Kapitel, sichtbare Regeln und passende Fäden. Ohne Timer, mit Rückgängig und Platz für kleine Fundstücke.' : 'A calm sorting puzzle: 25 puzzles, five chapters, visible rules and matching threads. Take your time, undo moves and find a place for little keepsakes.') : (language === 'de' ? 'Hilfe und Kontakt für Little Keepings.' : 'Help and contact for Little Keepings.');
       document.title = title;
       document.querySelectorAll('meta[name="description"], meta[property="og:description"]').forEach(meta => meta.content = description);
       const ogTitle = document.querySelector('meta[property="og:title"]');
@@ -31,7 +31,7 @@
   }
   document.querySelectorAll('.lang').forEach(button => button.addEventListener('click', () => {
     language = language === 'de' ? 'en' : 'de';
-    try { localStorage.setItem('stillsort_lang', language); } catch (_) {}
+    try { localStorage.setItem('little_keepings_lang', language); } catch (_) {}
     const url = new URL(location.href); url.searchParams.set('lang', language); history.replaceState(null, '', url);
     apply();
   }));
