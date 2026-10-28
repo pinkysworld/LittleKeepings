@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - link "Zum Inhalt" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - link "stillsort" [ref=e4] [cursor=pointer]:
+      - /url: /?lang=de
+      - generic [ref=e5]: stillsort
+    - navigation "Navigation" [ref=e6]:
+      - link "Das Spiel" [ref=e7] [cursor=pointer]:
+        - /url: /?lang=de#spiel
+      - link "Einblicke" [ref=e8] [cursor=pointer]:
+        - /url: /?lang=de#einblicke
+      - link "Support" [ref=e9] [cursor=pointer]:
+        - /url: /support.html?lang=de
+      - button "Switch to English" [ref=e10] [cursor=pointer]: EN
+  - main [ref=e11]:
+    - region "Stillsort In Ruhe sortieren." [ref=e12]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: Ein Spiel zum Durchatmen
+        - heading "Stillsort In Ruhe sortieren." [level=1] [ref=e15]:
+          - text: Stillsort
+          - generic [ref=e16]: In Ruhe sortieren.
+        - paragraph [ref=e17]: Vertraute Dinge, kleine Regeln und ein guter Platz für alles. Ein gemütliches Puzzle für eine Pause vom Alltag.
+        - link "Das Spiel entdecken" [ref=e18] [cursor=pointer]:
+          - /url: "#spiel"
+          - generic [ref=e19]: Das Spiel entdecken
+          - generic [ref=e20]: ↘
+        - paragraph [ref=e21]: Bald im Microsoft Store und bei Google Play · später auf Steam
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Das Spiel
+      - heading "Kleine Dinge. Ein guter Platz." [level=2] [ref=e25]:
+        - generic [ref=e26]:
+          - text: Kleine Dinge.
+          - text: Ein guter Platz.
+      - generic [ref=e27]:
+        - article [ref=e28]:
+          - text: "01"
+          - heading "Sichtbare Regeln" [level=3] [ref=e29]
+          - paragraph [ref=e30]: Jede Aufgabe zeigt dir, worauf es ankommt. Entdecke die Ordnung Schritt für Schritt.
+        - article [ref=e31]:
+          - text: "02"
+          - heading "Dein Weg zur Lösung" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Manche Aufgaben haben mehrere Lösungen. Mit „Rückgängig“ kannst du jederzeit einen Zug zurücknehmen.
+        - article [ref=e34]:
+          - text: "03"
+          - heading "Ganz ohne Eile" [level=3] [ref=e35]
+          - paragraph [ref=e36]: "Kein Timer: Nimm dir die Zeit, die du brauchst, und spiele mit Maus oder Touch."
+        - article [ref=e37]:
+          - text: "04"
+          - heading "25 kleine Aufgaben" [level=3] [ref=e38]
+          - paragraph [ref=e39]: Fünf Kapitel laden dich ein, vertraute Dinge immer wieder neu zu ordnen.
+    - generic [ref=e41]:
+      - paragraph [ref=e42]: Einblicke
+      - heading "Ordnung, Stück für Stück." [level=2] [ref=e43]
+      - paragraph [ref=e44]: "Vom ersten Griff bis zum guten Platz: echte Spielaufnahmen aus allen fünf Kapiteln."
+      - generic [ref=e45]:
+        - figure "IN BEWEGUNG Ein Griff. Ein neuer Platz." [ref=e46]:
+          - link "Ein Griff. Ein neuer Platz. – Spielaufnahme in voller Größe" [ref=e47] [cursor=pointer]:
+            - /url: img/screens/level-06-drag.webp
+            - img "Ein Griff. Ein neuer Platz." [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]: IN BEWEGUNG
+            - generic [ref=e51]: Ein Griff. Ein neuer Platz.
+        - figure "01 / 25 Die erste Schublade" [ref=e52]:
+          - link "Die erste Schublade – Spielaufnahme in voller Größe" [ref=e53] [cursor=pointer]:
+            - /url: img/screens/level-01-solved.webp
+            - img "Die erste Schublade" [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]: 01 / 25
+            - generic [ref=e57]: Die erste Schublade
+        - figure "06 / 25 Stiftepause" [ref=e58]:
+          - link "Stiftepause – Spielaufnahme in voller Größe" [ref=e59] [cursor=pointer]:
+            - /url: img/screens/level-06-solved.webp
+            - img "Stiftepause" [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: 06 / 25
+            - generic [ref=e63]: Stiftepause
+        - figure "11 / 25 Gewürzdeckel" [ref=e64]:
+          - link "Gewürzdeckel – Spielaufnahme in voller Größe" [ref=e65] [cursor=pointer]:
+            - /url: img/screens/level-11-solved.webp
+            - img "Gewürzdeckel" [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]: 11 / 25
+            - generic [ref=e69]: Gewürzdeckel
+        - figure "16 / 25 Die Werkzeugwand" [ref=e70]:
+          - link "Die Werkzeugwand – Spielaufnahme in voller Größe" [ref=e71] [cursor=pointer]:
+            - /url: img/screens/level-16-solved.webp
+            - img "Die Werkzeugwand" [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e74]: 16 / 25
+            - generic [ref=e75]: Die Werkzeugwand
+        - figure "21 / 25 Blätter sammeln" [ref=e76]:
+          - link "Blätter sammeln – Spielaufnahme in voller Größe" [ref=e77] [cursor=pointer]:
+            - /url: img/screens/level-21-start.webp
+            - img "Blätter sammeln" [ref=e78]
+          - generic [ref=e79]:
+            - generic [ref=e80]: 21 / 25
+            - generic [ref=e81]: Blätter sammeln
+        - figure "25 / 25 Alles hat seinen Platz" [ref=e82]:
+          - link "Alles hat seinen Platz – Spielaufnahme in voller Größe" [ref=e83] [cursor=pointer]:
+            - /url: img/screens/level-25-solved.webp
+            - img "Alles hat seinen Platz" [ref=e84]
+          - generic [ref=e85]:
+            - generic [ref=e86]: 25 / 25
+            - generic [ref=e87]: Alles hat seinen Platz
+        - figure "WILLKOMMEN Deine kleine Pause beginnt hier." [ref=e88]:
+          - link "Deine kleine Pause beginnt hier. – Spielaufnahme in voller Größe" [ref=e89] [cursor=pointer]:
+            - /url: img/screens/menu.webp
+            - img "Deine kleine Pause beginnt hier." [ref=e90]
+          - generic [ref=e91]:
+            - generic [ref=e92]: WILLKOMMEN
+            - generic [ref=e93]: Deine kleine Pause beginnt hier.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - paragraph [ref=e96]: FAQ
+        - heading "Noch Fragen?" [level=2] [ref=e97]
+      - generic [ref=e98]:
+        - group [ref=e99]:
+          - generic "Wo wird Stillsort erhältlich sein?" [ref=e100] [cursor=pointer]
+        - group [ref=e101]:
+          - generic "Muss ich schnell sein?" [ref=e102] [cursor=pointer]
+        - group [ref=e103]:
+          - generic "Wo wird mein Fortschritt gespeichert?" [ref=e104] [cursor=pointer]
+    - generic [ref=e106]:
+      - heading "Ein bisschen Ordnung tut gut." [level=2] [ref=e107]
+      - paragraph [ref=e108]: "Stillsort kommt bald. Bis dahin: mach es dir gemütlich."
+  - contentinfo [ref=e109]:
+    - generic [ref=e110]:
+      - strong [ref=e111]: stillsort
+      - paragraph [ref=e112]: © 2026 Minh Studios · Michel Nguyen
+    - navigation "Footer" [ref=e113]:
+      - link "Impressum" [ref=e114] [cursor=pointer]:
+        - /url: /impressum.html?lang=de
+      - link "Datenschutz" [ref=e115] [cursor=pointer]:
+        - /url: /privacy.html?lang=de
+      - link "Support" [ref=e116] [cursor=pointer]:
+        - /url: /support.html?lang=de

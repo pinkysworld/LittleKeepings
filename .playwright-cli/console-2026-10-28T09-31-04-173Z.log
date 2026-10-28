@@ -1,0 +1,4 @@
+[     191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/img/screens/level-06-drag-640.webp:0
+[     199ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/img/screens/level-01-solved-640.webp:0
+[   17537ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/img/screens/level-11-solved-640.webp:0
+[   17537ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/img/screens/level-06-solved-640.webp:0

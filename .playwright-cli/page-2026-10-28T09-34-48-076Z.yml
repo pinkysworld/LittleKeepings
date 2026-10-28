@@ -1,0 +1,129 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e110] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - link "stillsort" [ref=e4] [cursor=pointer]:
+      - /url: /?lang=en
+      - generic [ref=e5]: stillsort
+    - navigation "Navigation" [ref=e6]:
+      - link "The game" [ref=e111] [cursor=pointer]:
+        - /url: /?lang=en#spiel
+      - link "Support" [ref=e8] [cursor=pointer]:
+        - /url: /support.html?lang=en
+      - button "Zu Deutsch wechseln" [ref=e112] [cursor=pointer]: DE
+  - main [ref=e10]:
+    - region "Stillsort Find your quiet order." [ref=e113]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: A little room to unwind
+        - heading "Stillsort Find your quiet order." [level=1] [ref=e114]:
+          - text: Stillsort
+          - generic [ref=e15]: Find your quiet order.
+        - paragraph [ref=e16]: Familiar things, little rules and a place for everything. A cozy puzzle for a break from the everyday.
+        - link "Discover the game" [ref=e115] [cursor=pointer]:
+          - /url: "#spiel"
+          - generic [ref=e116]: Discover the game
+          - generic [ref=e19]: ↘
+        - paragraph [ref=e20]: Coming soon to Microsoft Store and Google Play · Steam later
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: The game
+      - heading "Small things. Just the right place." [level=2] [ref=e117]:
+        - generic [ref=e118]:
+          - text: Small things.
+          - text: Just the right place.
+      - generic [ref=e26]:
+        - article [ref=e27]:
+          - text: "01"
+          - heading "Visible rules" [level=3] [ref=e119]
+          - paragraph [ref=e29]: Each puzzle shows you what matters. Discover the pattern one step at a time.
+        - article [ref=e30]:
+          - text: "02"
+          - heading "Your own way to solve" [level=3] [ref=e120]
+          - paragraph [ref=e32]: Some puzzles have more than one solution. Undo lets you take a move back.
+        - article [ref=e33]:
+          - text: "03"
+          - heading "No need to hurry" [level=3] [ref=e121]
+          - paragraph [ref=e35]: There’s no timer. Take your time and play with a mouse or touch.
+        - article [ref=e36]:
+          - text: "04"
+          - heading "25 little puzzles" [level=3] [ref=e122]
+          - paragraph [ref=e38]: Five chapters invite you to arrange familiar objects in new ways.
+    - generic [ref=e40]:
+      - paragraph [ref=e41]: A closer look
+      - heading "A little order, piece by piece." [level=2] [ref=e123]
+      - paragraph [ref=e43]: "From the first move to the right place: real gameplay from all five chapters. Screenshots show the German interface."
+      - generic [ref=e44]:
+        - figure "IN MOTION One move. A new place." [ref=e124]:
+          - link "One move. A new place. – full-size gameplay screenshot" [ref=e125] [cursor=pointer]:
+            - /url: img/screens/level-06-drag.webp
+            - img "One move. A new place." [ref=e126]
+          - generic [ref=e48]:
+            - generic [ref=e49]: IN MOTION
+            - generic [ref=e50]: One move. A new place.
+        - figure "01 / 25 The first drawer" [ref=e127]:
+          - link "The first drawer – full-size gameplay screenshot" [ref=e128] [cursor=pointer]:
+            - /url: img/screens/level-01-solved.webp
+            - img "The first drawer" [ref=e129]
+          - generic [ref=e54]:
+            - generic [ref=e55]: 01 / 25
+            - generic [ref=e56]: The first drawer
+        - figure "06 / 25 Pencil break" [ref=e130]:
+          - link "Pencil break – full-size gameplay screenshot" [ref=e131] [cursor=pointer]:
+            - /url: img/screens/level-06-solved.webp
+            - img "Pencil break" [ref=e132]
+          - generic [ref=e60]:
+            - generic [ref=e61]: 06 / 25
+            - generic [ref=e62]: Pencil break
+        - figure "11 / 25 Spice lids" [ref=e133]:
+          - link "Spice lids – full-size gameplay screenshot" [ref=e134] [cursor=pointer]:
+            - /url: img/screens/level-11-solved.webp
+            - img "Spice lids" [ref=e135]
+          - generic [ref=e66]:
+            - generic [ref=e67]: 11 / 25
+            - generic [ref=e68]: Spice lids
+        - figure "16 / 25 The tool wall" [ref=e136]:
+          - link "The tool wall – full-size gameplay screenshot" [ref=e137] [cursor=pointer]:
+            - /url: img/screens/level-16-solved.webp
+            - img "The tool wall" [ref=e138]
+          - generic [ref=e72]:
+            - generic [ref=e73]: 16 / 25
+            - generic [ref=e74]: The tool wall
+        - figure "21 / 25 Gathering leaves" [ref=e139]:
+          - link "Gathering leaves – full-size gameplay screenshot" [ref=e140] [cursor=pointer]:
+            - /url: img/screens/level-21-start.webp
+            - img "Gathering leaves" [ref=e141]
+          - generic [ref=e78]:
+            - generic [ref=e79]: 21 / 25
+            - generic [ref=e80]: Gathering leaves
+        - figure "25 / 25 Everything has its place" [ref=e142]:
+          - link "Everything has its place – full-size gameplay screenshot" [ref=e143] [cursor=pointer]:
+            - /url: img/screens/level-25-solved.webp
+            - img "Everything has its place" [ref=e144]
+          - generic [ref=e84]:
+            - generic [ref=e85]: 25 / 25
+            - generic [ref=e86]: Everything has its place
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - paragraph [ref=e89]: FAQ
+        - heading "A few questions?" [level=2] [ref=e145]
+      - generic [ref=e91]:
+        - group [ref=e92]:
+          - generic "Where will Stillsort be available?" [ref=e146] [cursor=pointer]
+        - group [ref=e94]:
+          - generic "Do I need to be quick?" [active] [ref=e147] [cursor=pointer]
+          - paragraph [ref=e152]: No. There is no timer. Play at your own pace and undo moves.
+        - group [ref=e96]:
+          - generic "Where is my progress saved?" [ref=e148] [cursor=pointer]
+    - generic [ref=e99]:
+      - heading "A little order feels good." [level=2] [ref=e149]
+      - paragraph [ref=e101]: Stillsort is coming soon. Until then, make yourself comfortable.
+  - contentinfo [ref=e102]:
+    - generic [ref=e103]:
+      - strong [ref=e104]: stillsort
+      - paragraph [ref=e105]: © 2026 Minh Studios · Michel Nguyen
+    - navigation "Footer" [ref=e106]:
+      - link "Legal notice" [ref=e150] [cursor=pointer]:
+        - /url: /impressum.html?lang=en
+      - link "Privacy" [ref=e151] [cursor=pointer]:
+        - /url: /privacy.html?lang=en
+      - link "Support" [ref=e109] [cursor=pointer]:
+        - /url: /support.html?lang=en
