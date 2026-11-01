@@ -8,3 +8,9 @@
 [data-l="de"]{display:none}html[lang="de"] [data-l="en"]{display:none}html[lang="de"] [data-l="de"]{display:revert}
 .hero-logo{display:block;width:100%;height:auto;max-width:480px;margin-bottom:12px}.hero h1{font-size:88px}.hero h1>span{font-size:34px}.hero-copy{width:53%}.brand{font-size:21px;letter-spacing:-.6px}.nav nav{gap:24px}
 @media(max-width:700px){.hero-copy{width:100%}.hero h1>span{font-size:28px}.nav{height:auto;min-height:100px;flex-wrap:wrap;justify-content:center;padding-block:15px;gap:12px}.nav nav{gap:24px}.nav nav a:nth-child(2){display:inline}.hero-logo{max-width:420px}.hero-art{height:210px}.hero-art img{object-position:right center}}
+
+/* Microsoft Store badge. */
+.store{margin:22px 0 0}.store-badge{display:inline-block;line-height:0;border-radius:5px}.store-badge img{display:block;height:48px;width:auto}.store-badge:hover{opacity:.88}.hero .coming{margin-top:12px}.closing .store{margin-top:16px}.lang{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+
+/* Microsoft Store badge. */
+.store{margin:22px 0 0}.store-badge{display:inline-block;line-height:0;border-radius:5px}.store-badge img{display:block;height:48px;width:auto}.store-badge:hover{opacity:.88}.hero .coming{margin-top:12px}.closing .store{margin-top:16px}.lang{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
